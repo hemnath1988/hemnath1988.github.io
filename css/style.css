@@ -68,6 +68,7 @@ html, body,{height: 100%;}
 .pg1cnttop{ }
 .posabsimg{ position:absolute;}
 .page1base >div{ }
+.vltop{ vertical-align:top;}
 
 
 
@@ -167,16 +168,16 @@ html, body,{height: 100%;}
 			margin: 0 auto;
 			
 			-webkit-transform-style: preserve-3d;
-			-webkit-animation: cube-spin 5s infinite linear;
+			-webkit-animation: cube-spin 8s infinite linear;
 			
 			-moz-transform-style: preserve-3d;
-			-moz-animation: cube-spin 5s infinite linear;
+			-moz-animation: cube-spin 8s infinite linear;
 
 			-ms-transform-style: preserve-3d;
-			-ms-animation: cube-spin 5s infinite linear;
+			-ms-animation: cube-spin 8s infinite linear;
 
 			transform-style: preserve-3d;
-			animation: cube-spin 5s infinite linear;
+			animation: cube-spin 8s infinite linear;
 		}
 
 		.cube div {
@@ -282,10 +283,10 @@ html, body,{height: 100%;}
     animation-play-state: paused;}
 	
 	
-	.ttlsht{display:block;font-size: 140px;color: #00000087;font-weight: 400;text-align:center;line-height: normal; margin-top:20px;}
-	.ttldtl{display:block;font-size: 21px;color:#FFFFFF;font-weight: 200;line-height: normal;}
-	.dsinfowrap{margin:0 auto;text-align:center;font-size: 14px;color:#FFFFFF;line-height:normal;margin-top: 34px;font-weight: 100; width:100%; padding:0;}
-	
+	.ttlsht{display:block;font-size: 140px;color:#46545f;font-weight: 400;text-align:center;line-height: normal; margin-top:20px;}
+	.ttldtl{display:block;font-size: 21px;color:#252525;font-weight: 200;line-height: normal;}
+	.dsinfowrap{margin:0 auto;text-align:center;font-size: 14px;color:#333333;line-height:normal;margin-top: 34px;font-weight: 100; width:100%; padding:0;}
+	.cube-wrap{ transform:scale(0.8);}
 	
 	/* hanging animation*/
 	
@@ -297,7 +298,7 @@ html, body,{height: 100%;}
 		}
 		
 	.hanging >img{transition:0.5s ease-in-out;}
-	.hanging:hover{ animation-play-state:paused; cursor:pointer;}
+	.hanging:hover{ animation-play-state:paused;}
 	.hanging:hover >img{ filter:grayscale(0); transform:scale(1.4);}
 	.arttoolsgrey{ width:100px;height:100px;border:1px solid #E2E8EC;border-radius:50%;background: #EAF0F4;position: absolute;}
 	
@@ -308,15 +309,15 @@ html, body,{height: 100%;}
 	.cpathsecnd{ width: 80%; border-top: 1px dashed #a0a0a0; margin: 0 auto; text-align:center;}
 	.cpseprator{ width:20%; margin:0 2%; height:100%; margin-top:1%; transition:all 0.3s ease-in-out;}
 	.cpseprator1{ width:20%; margin:0 2%; height:100%; margin-top:1%; transition:all 0.3s ease-in-out;}
-	.cpcnt{width:100%; height:200px; border:1px solid #EAEAEA; border-top:none; border-bottom-style:dashed; background:#FFFFFF;}
+	.cpcnt{width:100%; height:180px; border:1px solid #EAEAEA; border-top:none; border-bottom-style:dashed; background:#FFFFFF; box-sizing:border-box;}
 	.cp1date{ width:100%; height:40px; color:#ffffff; text-align:center; font-size:18px; font-weight:400; padding-top:20px;}
 	.cplogo{width:100%; margin-top:20px; text-align:center;}
 	.cplogotxt{ width:100%; color:#5a5a5a; font-size:15px; font-weight:400; text-align:center; margin-top:20px;}
 	
 	.cpuparow:before{content: "";display:inline-block;border-left: 12px solid transparent;border-right: 12px solid transparent;border-bottom: 14px solid #916fd6;margin-bottom:-4px;}
 	
-	.cpbble1::after, .cpbble2::after, .cpbble3::after, .cpbble4::after { content:""; display: inline-block; width: 14px; height: 14px; border: 2px solid #7A878C; border-radius: 50%; margin-bottom: -10px; background: #ffffff;}
-	.cprolescnt{height: 150px;width:100%;margin-top:10px;border-radius: 0 0 50%/20% 0;color:#FFFFFF;padding: 10px;box-sizing: border-box; transition: 0.5s ease-in-out; transform: translateY(80px); opacity: 0;}
+	.cpbble1::after, .cpbble2::after, .cpbble3::after, .cpbble4::after { content:""; display: inline-block; width: 14px; height: 14px; border:2px solid #7A878C; border-radius: 50%; margin-bottom: -10px; background: #ffffff;}
+	.cprolescnt{ height:150px;width:100%; color:#FFFFFF; padding: 10px; box-sizing:border-box; transition: 0.5s ease-in-out; transform: translateY(80px); opacity:0; border:1px solid #ffffff;}
 	.cpseprator:hover .cprolescnt{transition:all 0.3s ease-in-out; transform: translateY(1px); opacity:1; cursor:pointer;}
 	.cpseprator:hover{transition:all 0.3s easein-out; transform:scale(1.1) translateY(15px); cursor:pointer;}
 	
@@ -332,9 +333,9 @@ html, body,{height: 100%;}
 	.mapbg{height: 90%;w;width: 90%;position: absolute;e;background-image: url('../img/world-map.png');z-index:  -1;background-repeat: no-repeat;background-position: center;opacity: 0.1;background-size: contain;top: 5%;l;left: 7%;}
 	.experfont{font-size: 35px; position: absolute; bottom: 18%; width:100%; text-align:center; color: #636567; font-weight: 100;}
 	.portbtn{padding:20px 40px; margin:0 auto; background: #ee0979; background: -webkit-linear-gradient(to right, #ff6a00, #ee0979); background: linear-gradient(to right, #ff6a00, #ee0979); font-size: 19px;color:#FFFFFF;font-weight: 400;margin-top: -5%;text-align: center; transition:all 0.5s ease-in-out;}
-	.porttxt{font-size:80px;color: #000000;font-weight: 800;box-sizing: border-box;line-height: 6.5;}
-	.portcolorsplash{ width:100%;height: 80%;background:url('../img/portfoilo_splash.png');background-repeat:no-repeat;background-position:center;margin:0 auto;text-align:center;background-size: inherit;box-sizing: border-box;}
-	.portbgdull{background-image:url('../img/portfoliobg.png'); background-repeat:no-repeat; background-size:cover; background-position:center;}
+	.porttxt{font-size:80px;color: #ff3e01;font-weight: 800;box-sizing: border-box;line-height: 2.5;margin-top: calc(100% - 85%);position: absolute;width: 100%;}
+	.portcolorsplash{ width:100%; text-align:center;}
+	.portbgdull{background-image:url('../img/portbg_top.png'),url('../img/portbg_btm.png'); background-position:top center, bottom center; background-repeat:repeat-x;}
 	.portbtn:hover{-webkit-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.3);-moz-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.3); box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.3); cursor:pointer;}
 	.cv{ padding:10px 20px; color:#ffffff;font-size:18px;font-weight:400;background: #9a86ca;margin-left:20px;background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);border-radius: 6px;}
 	.cvregular{background: none; border: 2px solid #B312CA; color: #690e98;}
@@ -362,3 +363,9 @@ html, body,{height: 100%;}
 		.cvregular:hover{box-shadow: 1px 4px 16px #8f50be73; cursor:pointer; transition:all 0.2s ease-in-out;}
 		
 	
+	
+	@media screen and (max-height:680px) {
+		
+
+		
+		}
